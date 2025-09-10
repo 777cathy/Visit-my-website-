@@ -1,62 +1,61 @@
 import Image from "next/image";
+import Link from "next/link";
 import { socialLinks } from "./lib/config";
 
 export default function Page() {
   return (
     <section>
-      <a href={socialLinks.twitter} target="_blank">
         <Image
-          src="/profile.png"
-          alt="Profile photo"
-          className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-5 sm:mb-5 grayscale hover:grayscale-0"
-          unoptimized
-          width={160}
-          height={160}
+          src="/profile.jpg" 
+          alt="Catherine Wang at Sydney Harbour"
+          className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-5 sm:mb-5"
+          width={200}
+          height={200}
           priority
         />
-      </a>
-      <h1 className="mb-8 text-2xl font-medium">Portfolio template!</h1>
+      
+
+      <h1 className="mb-8 text-2xl font-medium">About Me</h1>
+
       <div className="prose prose-neutral dark:prose-invert">
+        <p>Hi, I'm Catherine!</p>
+
         <p>
-          A clean, fast, and lightweight portfolio template built with Next.js,
-          Vercel, and Tailwind CSS.
+          I'm a Computer Science graduate from ANU with a strong interest in
+          data analysis, business insights, and web development. Over the past
+          few years, I've worked on projects ranging from building
+          interactive art installations to redesigning real-world websites for
+          local businesses. I've also gained hands-on experience in
+          e-commerce analytics and forecasting, applying data-driven thinking to
+          support smarter decisions. I thrive at the intersection of technology
+          and user experience, whether it's turning raw data into
+          meaningful stories, or crafting intuitive web interfaces that connect
+          with people. I'm always eager to explore new technologies,
+          collaborate with diverse teams, and create solutions that make a real
+          impact. Feel free to browse my portfolio and reach out!
         </p>
+
+        <ul>
+          <li>
+            <strong>What I do:</strong> Data Analysis, Business Analysis, Web Development.
+          </li>
+          <li>
+            <strong>Stack:</strong> Python (Pandas/NumPy), SQL, Tableau,
+            JavaScript/TypeScript, React/Next.js, HTML, CSS, P5.js, Java.
+          </li>
+          <li>
+            <strong>Highlights:</strong> Boosted weekly GMV during a ByteDance
+            project by identifying high-potential SKUs and optimizing campaign
+            timing; Designed and developed an e-commerce booking system and an online customer-support (live chat) system.
+          </li>
+        </ul>
+
         <p>
-          Nextfolio has everything you need for a portfolio: MDX blog, SEO, RSS,
-          Atom & JSON feeds, analytics, Tweet & YouTube embeds, KaTeX and {""}
-          <a
-            target="_blank"
-            href="https://github.com/1msirius/Nextfolio?tab=readme-ov-file#features"
-          >
-            more
-          </a>
-          .
+          I'm exploring roles in <strong>data/business analytics</strong> and
+          <strong> front-end/UX</strong>. Feel free to reach out via the icons below.
         </p>
-        <p>
-          Nextfolio is{" "}
-          <a href={socialLinks.github} target="_blank">
-            open-source
-          </a>{" "}
-          and fully customizable, making it easy to add more features.
-        </p>
-        <p>
-          <a
-            href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F1msirius%2FNextfolio"
-            target="_blank"
-          >
-            Deploy
-          </a>{" "}
-          your Nextfolio site with Vercel in minutes and follow the set up
-          instructions in the{" "}
-          <a href="/blog/getting-started">Getting Started</a> post.
-        </p>
-        <p>
-          Built and maintained by{" "}
-          <a href="https://imsirius.xyz/" target="_blank">
-            Sirius
-          </a>
-          .
-        </p>
+
+        
       </div>
     </section>
   );
