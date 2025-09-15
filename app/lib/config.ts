@@ -9,7 +9,7 @@ export const metaData = {
 
 export const socialLinks = {
   github: "https://github.com/777cathy/music-interaction-project",
-  instagram: "https://www.instagram.com/",
+  instagram: "https://www.instagram.com/catherine_lliang/",
   linkedin: "https://www.linkedin.com/in/catherine-wang-46b9a3293/",
   email: "cathy3305777@gmail.com",
   rss: "",
