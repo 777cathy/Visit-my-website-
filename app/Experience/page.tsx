@@ -18,7 +18,7 @@ const experiences: Exp[] = [
     company: "Express Repair",
     role: "Web Developer",
     period: "06.2025 - Present",
-    location: "Canberra",
+    location: "Canberra, Australia",
     bullets: [
       "Built the company website end-to-end (IA, UI, performance)",
       "Designed and implemented a customer booking system",
@@ -73,9 +73,26 @@ const experiences: Exp[] = [
     "Coordinated with Product, R&D, and Operations to prioritize data-informed features and experiments.",
     "Contributed to the department achieving Top-1 GMV with data-backed recommendations."
   ],
-  tech: ["Business Analysis", "Excel", "Internal BI", "User Segmentation", "SOP/Operations"],
+  tech: ["Business Analysis", "Excel", "Internal BI", "User Segmentation", "SOP/Operations", "Cross-functional collaboration"],
   logo: "/companies/Douyin.png",
 },
+
+{
+  company: "MINISO",
+  role: "E-commerce Business Analyst",
+  period: "07.2021 - 09.2021",               
+  location: "Guangzhou, China",         
+  bullets: [
+    "Performed market, competitor, and customer-review analysis to identify product gaps, positioning, and pricing benchmarks.",
+    "Built demand forecasts and trend trackers to inform the product roadmap and launch calendar.",
+    "Translated product and consumer data (sales, search, reviews, clickstream) into actionable insights for assortment, pricing, and digital campaigns.",
+    "Supported new product launches by defining target segments, success metrics, and channel/creative recommendations for digital campaigns.",
+    "Delivered concise dashboards and readouts that accelerated data-informed decisions across product and marketing."
+  ],
+  tech: ["Excel", "Python", "Competitive Analysis", "Cross-functional collaboration"],
+  logo: "/companies/Miniso.png"
+}
+
 
 ];
 
