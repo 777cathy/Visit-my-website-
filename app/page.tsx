@@ -16,6 +16,7 @@ export default function Page() {
       
 
       <h1 className="mb-8 text-2xl font-medium">About Me</h1>
+      
 
       <div className="prose prose-neutral dark:prose-invert">
         <p>Hi, I'm Catherine!</p>
